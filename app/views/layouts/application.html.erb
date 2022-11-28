@@ -11,10 +11,11 @@
   </head>
 
   <body>
-
-  <%= link_to "Головна", root_path %>
-  <%= link_to "Про нас", pages_about_path %>
-
-    <%= yield %>
+    <div class="container-fluid container-baground">
+      <%= render 'layouts/navbar' %>
+      <div class="container ">
+      <%= yield %>
+      </div>
+    </div>
   </body>
 </html>

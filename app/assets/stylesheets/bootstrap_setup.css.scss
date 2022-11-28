@@ -1,0 +1,14 @@
+@import "bootstrap";
+
+.container-baground {
+   width: 100%;
+   height: 100vh;
+   background-size: cover;
+   background-image: url(image_path('flowers.jpg'));
+}
+
+// .card {
+//     width: 90%;
+//     height: 100vh;
+//     background-size: cover; 
+// }
